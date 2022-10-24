@@ -1,0 +1,21 @@
+.carousel {
+  padding-top: 100px;
+  width: 100%;
+  h2 {
+    @include h2($color-secundario);
+  }
+  .container {
+    height: 70vh;
+    max-width: 100%;
+    justify-content: center;
+    background-image: url(../images/hotelcarrousel1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      height: 50vh;
+    }
+  }
+}

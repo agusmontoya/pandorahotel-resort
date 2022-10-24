@@ -1,0 +1,158 @@
+.main__nosotros {
+  padding-top: 150px;
+  .container {
+    margin: auto;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .quienes-somos {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h2 {
+        @include h2($color-secundario);
+      }
+      img {
+        width: 400px;
+      }
+      .texto {
+        padding: 2em;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+      }
+    }
+    .caracteristicas {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+      .texto {
+        padding: 2em;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+      }
+      h2 {
+        @include h2($color-secundario);
+      }
+
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
+
+.habitaciones__servicios {
+  padding: 100px 0;
+  .container {
+    max-width: 1140px;
+    margin: auto;
+    .listas {
+      background-color: $color-secundario;
+      width: 30%;
+      padding: 2em;
+      ul {
+        margin-top: 10px;
+        li {
+          display: flex;
+          gap: 1em;
+          font-size: 1.2em;
+        }
+      }
+    }
+    .listas__img {
+      width: 70%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.habitaciones {
+  .container {
+    max-width: 1140px;
+    padding-bottom: 100px;
+    margin: auto;
+    flex-direction: column;
+    h2 {
+      @include h2($color-secundario);
+    }
+    .container__img {
+      padding: 50px 0;
+      display: flex;
+      gap: 2em;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .main__nosotros {
+    padding-top: 100px;
+    .container {
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      .quienes-somos {
+        flex-direction: column;
+        img {
+          width: 100%;
+        }
+        .texto {
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .caracteristicas {
+        flex-direction: column;
+        .texto {
+          width: 100%;
+          padding: 50px 0;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .habitaciones__servicios {
+    padding: 100px 0;
+    .container {
+      max-width: 320px;
+      gap: 25px;
+      .listas {
+        width: 100%;
+        text-align: center;
+      }
+      .listas__img {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .habitaciones {
+    .container {
+      .container__img {
+        flex-direction: column;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

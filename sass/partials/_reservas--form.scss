@@ -1,0 +1,46 @@
+.seccion__reservas{
+    background-image: url(../../images/reserva.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    
+    h2{
+        font-size: 45px;
+        text-align: center;
+        color: white;
+    }
+
+    .contenedor__reservas{
+        padding: 25px;
+        background-color: map-get($colors, color-primario);
+        max-width: 450px;
+        margin: 25px auto;
+        border-radius: 15px;
+
+        form{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            gap: 5px;
+
+            .cant-personas{
+                width: 50px;
+            }
+
+            .botoncontacto{
+                margin-top: 25px;
+                border: none;
+                padding: 0.5em 0;
+                border-radius: 5px;
+                background-color: $color-secundario;
+                color: white;
+            }
+        }
+    }
+    @media (max-width: 600px){
+        h2{
+            font-size: 20px;
+        }
+    }
+}

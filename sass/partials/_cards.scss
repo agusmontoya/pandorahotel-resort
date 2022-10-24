@@ -1,0 +1,15 @@
+.card {
+    @include card;
+    text-align: center;
+    gap: 15px;
+    img {
+      width: 100%;
+      border-radius: $border-radius;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .button {
+      @include button(rgb(80, 80, 80));
+    }
+  }
