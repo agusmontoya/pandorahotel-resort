@@ -738,7 +738,7 @@
 
 @media (max-width: 600px) {
   .grilla {
-    max-width: 320px;
+    max-width: 350px;
     width: 100%;
     display: flex;
     flex-direction: column;
