@@ -227,7 +227,7 @@
 }
 
 .seccion__contacto {
-  background: url(../../imagenes-formulario/contactobackground.png);
+  background-image: url(../../imagenes-formulario/contactobackground.png);
   background-position: center;
   background-size: cover;
   padding: 100px 0;
@@ -235,7 +235,7 @@
 .seccion__contacto h2 {
   font-size: 45px;
   text-align: center;
-  color: white;
+  color: black;
   text-align: center;
 }
 .seccion__contacto p {
@@ -447,7 +447,7 @@
 .seccion__reservas h2 {
   font-size: 45px;
   text-align: center;
-  color: white;
+  color: black;
 }
 .seccion__reservas .contenedor__reservas {
   padding: 25px;
