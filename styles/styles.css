@@ -571,6 +571,7 @@
   max-width: 1140px;
   padding-bottom: 100px;
   margin: auto;
+  display: flex;
   flex-direction: column;
 }
 .habitaciones .container h2 {
@@ -581,6 +582,7 @@
 .habitaciones .container .container__img {
   padding: 50px 0;
   display: flex;
+  flex-direction: column;
   gap: 2em;
 }
 .habitaciones .container .container__img img {
