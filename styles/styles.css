@@ -227,7 +227,7 @@
 }
 
 .seccion__contacto {
-  background-image: url(../../imagenes-formulario/contactobackground.png);
+  background: url(../../imagenes-formulario/contactobackground.png);
   background-position: center;
   background-size: cover;
   padding: 100px 0;
