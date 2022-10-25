@@ -227,7 +227,7 @@
 }
 
 .seccion__contacto {
-  background-image: url(../../images/contactoimg1.png);
+  background-image: url(../../images/contactobackground.png);
   background-position: center;
   background-size: cover;
   padding: 100px 0;
@@ -439,7 +439,7 @@
 }
 
 .seccion__reservas {
-  background-image: url(../../images/reserva.png);
+  background-image: url(../../images/nosotrosbackground.png);
   background-position: center;
   background-size: cover;
   padding: 100px 0;
